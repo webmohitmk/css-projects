@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 2px 2px 15px gray;
+  height: 120px;
+}
+
+.logo img {
+  width: 200px;
+}
+
+/* nav ul {
+  line-height: 5;
+}
+
+nav ul li {
+  display: inline;
+  padding: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #000;
+}
+
+nav ul li a:hover {
+  color: #da3542;
+} */
+
+nav {
+  width: 30%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 120px;
+}
+
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #000;
+}
+
+nav ul li a:hover {
+  color: #da3542;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 24px;
+}
+
+.icons i {
+  color: #fff;
+  padding: 5px;
+}
+
+.fa-facebook {
+  background-color: #1178f2;
+  color: #fff;
+}
+
+.fa-instagram {
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  color: #fff;
+}
+
+.fa-youtube {
+  background-color: red;
+}
+
+.fa-snapchat {
+  background-color: rgb(191, 191, 5);
+}
+.fa-linkedin {
+  background: #0a63bc;
+}
